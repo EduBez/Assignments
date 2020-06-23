@@ -1,0 +1,50 @@
+QUESTION:
+
+Provide 5 bad coding practices examples and describe why they are considered as bad practices.
+
+
+
+1 - Code that is not modular
+
+It's good coding practice to write code that follows the "The Single Responsibility Principle" and are responsible for one thing and one thing only.
+
+"The Single Responsibility Principle" states every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated.
+
+The use of modules, namespaces and classes helps the understanding, modularity and maintainability of code while keeping it organized.
+Refactoring code is key to modularity and helps to keep the code easy to maintain and extend.
+
+
+2 - Code that is not extensible
+
+Good code should allow its behavior to be extended without the need for code modifications, it should follow "The Open-Closed Principle".
+
+"The Open-Closed Principle" states that software entities (classes, modules, methods, etc.) should be open for extension, but closed for modification.
+In practice, this means creating software entities whose behavior can be changed without the need to edit and recompile the code itself.
+
+The Open-Closed Principle can be achieved in many ways, including the use of inheritance or through compositional design patterns like the Strategy pattern.
+
+
+3 - Code that do not use naming conventions
+
+Considering that a software application spends the majority of its life in the maintenance phase, its fundamentally important to create a set of rules in
+source code for choosing the character sequence to be used for identifiers such as variables, types, functions, and other entities.
+Despite having nothing to do with programming skills, following a naming convention helps tremendously in easing code maintenance.
+
+
+4 - Code that does not have a clear style
+
+Programming style and indentation can be defined as the way you follow to organize and document your source code.
+One of the most important aspects in the software development domain is source code indentation and formatting.
+Proper source code indentation will make code easier to: read, understand, modify, maintain and enhance.
+
+Besides indentation, a good source code style should:
+- Keep lines from getting too long
+- Use parentheses to avoid ambiguity
+- Avoid long statements
+
+
+5 - Code that is prematurely optimized
+
+Code should be written with clarity, making it easier to debug and maintain.
+Anything that isn't a trivially clear optimization should be avoided until it can be measured.
+Premature optimization can introduce unexpected bugs and can be a huge time and money waster.

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="evolve::rest::Application">
+    <Position X="3.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAABAAAAAAAIAAAAKAAAAAAAAAAIAAEAAAAAI=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="evolve::wmi::WMI">
+    <Position X="6.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAABAgAAAAAAIAA=</HashCode>
+      <FileName>Instrumentation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="evolve::logger::Logger">
+    <Position X="6.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="evolve::loop::MessageLoop">
+    <Position X="0.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAgAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageLoop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="evolve::timer::Timer">
+    <Position X="0.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAIAAAACAAAAAAAAAIAAAAEAEQAA=</HashCode>
+      <FileName>Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

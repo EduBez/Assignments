@@ -1,0 +1,55 @@
+Complete Blood Count Exam (CBC)
+Red Blood Cell Count (RBC)
+
+There are four different components of RBC indices: 
+
+Mean Corpuscular Hemoglobin Concentration (MCHC)
+Mean Corpuscular Volume (MCV)
+Mean Corpuscular Hemoglobin (MCH)
+
+Red Cell Distribution Width (RDW). 
+
+The last one is a measurement derived from cell distribution curves generated on Automated Hematology Analyzers, and, combined with MCV, can help to diagnose many kinds of anemia.
+
+There are two RDW measurements widely used: 
+
+Standard Deviation (RDW-SD)
+Coefficient of Variation (RDW-CV)
+
+RDW-SD is an actual measurement of the width at 20% height level on the histogram.
+RDW-CV is calculated dividing Standard Deviation of the Mean Cell Size by the MCV, and multiplying by 100 (to convert in percentage).
+
+........................................................................
+Your challenge is to decode RDW indices from a communication sequence that has been dumped by an Automated Hematology Analyzer.
+........................................................................
+
+Input:
+
+The input must be read from standard input, indefinitely.
+No extra or wrong data appear in the input, and only ASCII characters will be used.
+
+A sequence starts by Red Cell Distribution Width Standard Deviation, with 4 characters, followed by a Carriage Return (ASCII code 13). 
+
+The first two digits are the integer part.
+The remaining two digits are the fractional part. 
+
+Then comes the MCV, with 4 characters, followed by a Carriage Return,
+The MCHC, with 4 characters, followed by a Carriage Return.
+The MCH with 4 characters, followed by a Carriage Return.
+The Coefficient of Variation, with 4 characters, where the first two digits are the integer part, and the remaining two are the fractional part, also followed by a CR. 
+
+Output:
+
+The output must be written to standard output.
+No extra data should appear in the output, only (and precisely) the requested information.
+
+For each sequence there must be printed:
+
+RDW-CV value
+RDW-SD value.
+
+First the prefix “RDWCV=” (without quotes), followed by RDW-CV value with 2 integer digits, a dot, and 1 fractional digit. 
+Then a comma must be printed, followed by “RDWSD=” (without quotes), RDW-SD value with 2 integer digits, a dot, and 1 fractional digit. 
+
+Thus, the less significant fractional digits of RDW indices must be discarded (data will be truncated).
+At the end of each the sequence, a Carriage Return must also be printed.

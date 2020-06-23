@@ -1,0 +1,39 @@
+Here is how I approached this assignment:
+
+The information on the "README.txt" file is very concise and completely skip code implementation details (I assume this is intended).
+
+To investigate and study the source code I created a Visual Studio Community 2017 solution and configured the compiler toolchain to the latest C++17 standard.
+
+After that I compiled and started the solution on Debug mode to try to understand the program flow.
+
+To easy my study on the source code I created a diagram of all the classes contained on the source code using the VS class diagram tool.
+
+I studied all the classes and gave special attention to the main ones and to the classes responsible for the exchange of messages between threads.
+
+After becoming comfortable with the source code I turned my attention to the source code segments that were to be implemented.
+
+At this point I felt comfortable to start implementing the missing parts.
+
+
+Those are the assumptions I made when tackling the problem:
+
+* Humans::OnMessageHumanStep() is the entry point to start the Elevator call
+
+* Humans::OnMessageElevatorArrive() handles both the Human entering and exiting the Elevator
+
+* To indicate the destination floor, when inside the Elevator, the Human calls Elevator::SelectFloor()
+
+* The purpose of Elevator::HasWork() is to convey status that the Elevator is working on Human requests.
+
+* Elevator::Step() is where the Elevator moves from floor to floor, changing direction when reaching the bottom or top floor
+
+* The heuristic for Elevator::OnMessageElevatorCall() has the following considerations:
+
+- When the Elevator is moving Down it must reach the bottom floor (1st floor) before starting to move Up
+- When the Elevator is moving Up it must reach the top floor (last floor) before starting to move Down
+
+I didn't have time to try to implement the bonus assignments, but for the following question:
+
+"In the supplied code, the system runs forever until the process is  terminated. How would you perform a clean exit?"
+
+I think a flag variable could replace the "while (true)" inside Threads.cpp and be flagged by a user input making the loop end and consequently terminating the thread.

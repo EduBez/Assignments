@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="evolve::rest::Application">
+    <Position X="3.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAARAAjEAAAAAAAAIAAIAAEAAAAAAAEAAAAAI=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="evolve::dal::DataAccessLayer">
+    <Position X="6.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAEAAIAAAAAAAAAAKCAADAAIAEAABKAAAAAEA=</HashCode>
+      <FileName>DataAccessLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="evolve::smtp::SMTP">
+    <Position X="3.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEBAAAEAAAAAAAAAAAAAAwAAAAA=</HashCode>
+      <FileName>SMTP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="evolve::parser::ConfigParser">
+    <Position X="0.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConfigParser.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="evolve::meta::ClientInfo">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAEAAAAAAIAAAAIAAAE=</HashCode>
+      <FileName>Metadata.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,10 @@
+#pragma once
+#include "StdAfx.h"
+
+///////////////////////////////////////////////////////////////////////////////
+//  Rest
+//
+struct Rest
+{
+    static std::wstring HttpGet(const std::wstring& url);
+};

@@ -1,0 +1,27 @@
+QUESTION:
+
+Describe one hard technical problem you faced in your last major project.
+Add a section to your slide that describes the problem, a section describes the solution and a
+section describes what you learned from this problem that you will reuse in your future projects.
+
+https://drive.google.com/file/d/12DwfLiyKMohg6DWH_2syo8wJlve5wWSG/view?usp=sharing
+
+
+PROBLEM
+I and my team were tasked with reworking a project that had been rejected by the client due to poor performance.
+The team leader from the first team had moved on from the company and I was given a leadership position.
+My group was faced with trying to understand another group's design and implementation but we had no one to go to answer our questions.
+
+
+SOLUTION
+The first approach was to study the source code, learn from it and get familiarized with its codding practices.
+Them we started profiling the code to find the performance bottlenecks by monitoring and instrumenting the code during runs.
+
+The performance bottleneck was found, It was the misuse of std::list.
+In this particular case, there where very few removal of elements and all insertions where at end of the collection.
+The solution was straightforward the change from std::list to std::vector to take advantage of continuous memory and cache coherency.
+
+
+LEARNING
+What I learned from this, and still hold to it, is that std::vector is your friend, and should be your first container of choice.
+This was a common case of code "pessimization", possibly in the hope of improving performance, that actually backfired.

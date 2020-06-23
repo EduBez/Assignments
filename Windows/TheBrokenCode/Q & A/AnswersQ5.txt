@@ -1,0 +1,40 @@
+QUESTION:
+
+List 3 techniques you suggest to use to ensure high quality and maintainable code. Select one technique and describe how you will apply to your daily routines and activities.
+
+
+Apply simple rules of software design, follow the best OOD principles and use test driven development.
+
+1 - Rules of Simple Design
+
+Code should be expressive: "say what you mean, understand what you're saying"
+Code must follow the KIS (Keep It Simple) principle
+Code must pass tests
+Code should not be duplicated
+Code should be refactored early and often
+
+
+2 - Object Oriented Design Principles
+
+In our everyday programing tasks try to follow, as close as possible, those principles:
+
+Single Responsibility Principle
+Open-Close Principle
+Dependency Inversion Principle 
+Liskov Substitution Principle
+
+
+3 - Test Driven Development
+
+Add a test
+Run all tests and see if the new test fails
+Write the code
+Run tests
+Refactor code
+
+:: Describe how you will apply to your daily routines and activities ::
+
+If you haven't tested your code, it's not complete.
+In the beginning, writing tests might seem like an extra work, however, test cases are detrimental to finding buggy code before committing it.
+Writing test cases alongside your code makes sure that the new piece of code isn't breaking any existing functionality.
+When you do major refactoring in code you make sure your refactoring has not broken anything based on the results of the written test cases.

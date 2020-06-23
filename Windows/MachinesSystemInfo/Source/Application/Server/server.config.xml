@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<machines>
+    <client>
+        <key>ScottMeyers-PC</key>
+        <mail>ScottMeyers@dummy.com</mail>
+        <memory>50%</memory>
+        <cpu>20%</cpu>
+        <processes>50</processes>
+    </client>
+    <client>
+        <key>HerbSutter-PC</key>
+        <mail>HerbSutter@dummy.com</mail>
+        <memory>40%</memory>
+        <cpu>25%</cpu>
+        <processes>40</processes>
+    </client>
+    <client>
+        <key>AndreiAlex-PC</key>
+        <mail>AndreiAlex@dummy.com</mail>
+        <memory>30%</memory>
+        <cpu>10%</cpu>
+        <processes>30</processes>
+    </client>
+</machines>
+

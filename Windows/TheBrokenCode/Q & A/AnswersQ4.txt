@@ -1,0 +1,85 @@
+QUESTION:
+
+List and describe 3 use cases you will select NoSql databases and 3 use cases you will select relational databases.
+Explain your decisions.
+
+
+
+** NoSQL Databases Use Cases **
+
+1 - Content Management
+
+:: Explanation
+
+The key to effective content management is the ability to select a variety of content, aggregate it and present it to the customer at the moment of interaction.
+NoSQL document databases, with their flexible data model, are perfect for storing any type of content: structured, semi-structured or unstructured.
+Because NoSQL document databases don’t require the data model to be defined first not only does it enable enterprises to easily create and produce new types of content, it also enables them to incorporate user-generated content, such as comments, images, or videos posted on social media, with the same ease and agility. 
+
+
+2 - Real-Time Big Data
+
+:: Explanation
+
+The ability to extract information from operational data in real-time is critical for an agile enterprise: It increases operational efficiency, reduces costs, and increases revenue by enabling you to act immediately on current data. 
+
+In the past, operational databases and analytical databases were maintained as different environments. 
+The operational database powered applications while the analytical database was part of the business intelligence and reporting environment. 
+
+Today, NoSQL is used as both the front-end; to store and manage operational data from any source - as well as the back-end; to receive, store and serve analytic results.
+
+
+3 - Internet of Things
+
+:: Explanation
+
+Billions of devices are connected to the Internet, everything from home appliances to systems installed in cars.
+The volume, velocity, and variety of machine-generated data are increasing with the proliferation of digital telemetry, which is semi-structured and continuous. 
+
+Relational databases struggle with the three well-known challenges from big data IoT applications: scalability, throughput, and data variety. 
+By contrast, NoSQL allows enterprises to scale concurrent data access to millions of connected devices and systems, store large volumes of data, and meet the performance requirements of mission-critical infrastructure and operations.
+
+
+
+** Relational Databases Use Cases **
+
+1 - Warehouse Management System
+
+:: Explanation
+
+For a warehouse system which monitors goods, among other activities, we need to record:
+
+- Products arriving at the warehouse and being allocated to a specific location.
+- Movements of goods within the warehouse, e.g. rearranging stock so the same products are in adjacent locations.
+- Orders and the subsequent removal of products from the warehouse for delivery.
+
+It’s imperative to minimize mistakes. We can’t have products disappearing or being moved to a location where different products are already being stored.
+In its simplest form, we’re recording the transfer of items from one physical area to another or removing from location A and placing in location B. 
+
+We need a robust data store, with a well-defined schema, that can enforce data integrity and transaction support.
+An SQL database will optimally satisfy those requirements.
+
+
+2 - Hospital Records
+
+:: Explanation
+
+When building a suite of applications that will evolve over time, duplicated data volumes will be very high if you do not do a reasonable amount of normalization.
+
+Such types of applications have to handle a lot of complicated querying, routine analysis of data and database transactions.
+This is where ACID (Atomicity, Consistency, Isolation, Durability), the set of properties that guarantee database transactions are processed reliably, really matters, and where referential integrity will come into play.
+
+
+3 - Accounting and Office Registers
+
+:: Explanation
+
+The same reasons already explained in the use case for "Hospital Records".
+Adding to the explanation, main advantages being:
+
+- Require a schema which defines tables prior to use
+- Store related data in tables
+- Encourage normalization to reduce data redundancy
+- Support table JOINs to retrieve related data from multiple tables in a single command
+- Implement data integrity rules.
+- Provide transactions to guarantee two or more updates succeed or fail as an atomic unit
+- Use a powerful declarative language for querying

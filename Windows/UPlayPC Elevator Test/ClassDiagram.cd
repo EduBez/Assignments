@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Elevator">
+    <Position X="12.25" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAKAAAAAAAAAGAAGgAAABAAAgAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>test\src\Elevator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Elevators">
+    <Position X="12.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAAAAAAAAAgAAgAAAAAAIAAAAAABAAAAA=</HashCode>
+      <FileName>test\src\Elevators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Human">
+    <Position X="9.25" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAECAAAAAAAAAAADgAAEAQACAAAAAIgEAAAQAAAA=</HashCode>
+      <FileName>test\src\Humans.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Humans">
+    <Position X="9.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCEAAIAACAAAAAAIAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>test\src\Humans.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageBus">
+    <Position X="6.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAABAAAAIAQAAAAAQBAAAAAAQAAAgAAAAAAA=</HashCode>
+      <FileName>test\src\MessageBus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageElevatorReady">
+    <Position X="4.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>test\src\Messages.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageElevatorStep">
+    <Position X="4.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>test\src\Messages.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageElevatorCall">
+    <Position X="2.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>test\src\Messages.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageElevatorRequest">
+    <Position X="2.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>test\src\Messages.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageElevatorArrived">
+    <Position X="2.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>test\src\Messages.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageHumanStep">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>test\src\Messages.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Threads">
+    <Position X="6.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAJQAEAAACAIEAAAAAAwAAAABAQAAAIAAAAYAAAAAAA=</HashCode>
+      <FileName>test\src\Threads.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="HumanState">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>test\src\Humans.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Direction">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>test\src\Messages.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

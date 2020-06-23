@@ -1,0 +1,52 @@
+﻿{
+    "configurations": [
+        {
+            "name": "x64-Debug",
+            "generator": "Ninja",
+            "configurationType": "Debug",
+            "buildRoot": "${projectDir}\\build\\${name}",
+            "installRoot": "${projectDir}\\build\\install\\${name}",
+            "cmakeCommandArgs": "",
+            "buildCommandArgs": "-v",
+            "ctestCommandArgs": "",
+            "inheritEnvironments": [ "msvc_x64_x64" ],
+            "variables": []
+        },
+        {
+            "name": "WSL-Debug",
+            "generator": "Unix Makefiles",
+            "configurationType": "Debug",
+            "buildRoot": "${projectDir}\\build\\${name}",
+            "installRoot": "${projectDir}\\build\\install\\${name}",
+            "cmakeExecutable": "/usr/bin/cmake",
+            "cmakeCommandArgs": "",
+            "buildCommandArgs": "-- -j 6",
+            "ctestCommandArgs": "",
+            "inheritEnvironments": [ "linux_x64" ],
+            "wslPath": "${defaultWSLPath}",
+            "addressSanitizerRuntimeFlags": "detect_leaks=0",
+            "variables": []
+        },
+        {
+            "name": "Linux-Debug",
+            "generator": "Unix Makefiles",
+            "configurationType": "Debug",
+            "cmakeExecutable": "/usr/bin/cmake",
+            "remoteCopySourcesExclusionList": [ ".vs", ".git", "build" ],
+            "cmakeCommandArgs": "",
+            "buildCommandArgs": "-- -j 6",
+            "ctestCommandArgs": "",
+            "inheritEnvironments": [ "linux_x64" ],
+            "remoteMachineName": "${defaultRemoteMachineName}",
+            "remoteCMakeListsRoot": "$HOME/.vs/${projectDirName}/${workspaceHash}/src",
+            "remoteBuildRoot": "$HOME/.vs/${projectDirName}/${workspaceHash}/build/build/${name}",
+            "remoteInstallRoot": "$HOME/.vs/${projectDirName}/${workspaceHash}/build/install/${name}",
+            "remoteCopySources": true,
+            "rsyncCommandArgs": "-t --delete --delete-excluded",
+            "remoteCopyBuildOutput": false,
+            "remoteCopySourcesMethod": "rsync",
+            "addressSanitizerRuntimeFlags": "detect_leaks=0",
+            "variables": []
+        }
+    ]
+}

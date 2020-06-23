@@ -1,0 +1,22 @@
+QUESTION:
+
+Create a diagram to describe continuous integration and delivery process end to end. 
+In 3 bullet points provide 3 tools you will use in your process and describe why they are the right choices.
+
+https://drive.google.com/file/d/18lSxFepWb58KHEZMxfzBZ7n27oNECCAt/view?usp=sharing
+
+
+* GitHub
+Git, the defacto version control system, used by millions of developers around the world blends naturally with its repository GitHub.
+GitHub has a powerfull social network build around it and is used by everyone, not only sofware programmers.
+
+
+* TeamCity
+One of the most popular CI tools that many developers and administrators are used to work with.
+TeamCity with its "Intelligent CI server" may automatically trigger builds after commits from GitHub.
+
+
+* Jenkins
+Jenkins is one of the most easily configurable and easily managed tool for continuous delivery.
+It provides an easy to use interface to configure almost anything with respect to Jobs and Admin configurations.
+Jenkins can be integrated with different source control management tools, build automation tools and code quality tools.

@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "WSL",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "C:/rootfs/usr/include/c++/8",
+                "C:/rootfs/usr/include/x86_64-linux-gnu/c++/8",
+                "C:/rootfs/usr/include/c++/8/backward",
+                "C:/rootfs/usr/lib/gcc/x86_64-linux-gnu/8/include",
+                "C:/rootfs/usr/local/include",
+                "C:/rootfs/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed",
+                "C:/rootfs/usr/include/x86_64-linux-gnu",
+                "C:/rootfs/usr/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "__linux__",
+                "__x86_64__"
+            ],
+            "browse": {
+                "path": [
+                    "C:/rootfs/usr/include/c++/8",
+                    "C:/rootfs/usr/include/x86_64-linux-gnu/c++/8",
+                    "C:/rootfs/usr/local/include",
+                    "C:/rootfs/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed",
+                    "C:/rootfs/usr/include/x86_64-linux-gnu",
+                    "C:/rootfs/usr/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/VcDB"
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Instructions To Build On Ubuntu 18.04
+-------------------------------------------------------------------------------
+
+1) Install gcc & g++ ver 8.3 (or higher)
+
+$ sudo apt update
+$ sudo apt install gcc-8 g++-8
+
+$ sudo rm /usr/bin/gcc
+$ sudo rm /usr/bin/g++
+$ sudo ln -s /usr/bin/gcc-8 /usr/bin/gcc
+$ sudo ln -s /usr/bin/g++-8 /usr/bin/g++
+
+2) Install CMake
+$ sudo apt install cmake
+
+3) Install Google Test (GTest)
+$ sudo apt install googletest libgtest-dev
+
+4) Clone the repository and build the application and tests
+
+$ sudo apt install git
+$ cd ~
+$ git clone https://github.com/EduBez/VeusChallenge.git
+
+$ cd VeusChallenge/out
+$ cmake ..
+$ cmake --build .
+
+$ cd ../gtest/out
+$ cmake ..
+$ cmake --build .
+
+
+-------------------------------------------------------------------------------
+Instructions To Build On Windows
+-------------------------------------------------------------------------------
+
+1) Download & Install Visual Studio Community 2019
+http://visualstudio.microsoft.com/vs
+
+2) During installation setup select the "C++ Toolchain"
+
+3) Install Google Test (GTest)
+
+Download or clone 'VcPkg' from: https://github.com/microsoft/vcpkg
+Open a command prompt; navigate to the 'VcPkg' folder and type:
+
+c:\> bootstrap-vcpkg.bat
+c:\> vcpkg integrate install
+c:\> vcpkg install gtest:x64-windows
+
+4) Clone the repository and build the application
+
+c:\> git clone https://github.com/EduBez/VeusChallenge.git
+
+5) Open Visual Studio Community 2019
+6) Select: File-> Open-> Folder
+7) Choose the directory where you cloned the repository
+8) Build the application
+9) Build the unit tests
